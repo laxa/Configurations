@@ -1,0 +1,9 @@
+[user]
+	name = laxa
+	email = laxa@ddracepro.net
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	editor = emacs

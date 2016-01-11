@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+SEARCH='.'
+
+if [ ${1} ]
+then
+    SEARCH=${1}
+fi
+
+find ${SEARCH} \( -name '*~' -or -name '.*~' \) -exec rm -frv {} \;
+#EOF

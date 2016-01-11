@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- location of the file: ~/.gconf/apps/gnome-terminal/keybindings/%gconf.xml -->
+<gconf>
+	<entry name="close_window" mtime="1439140575" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="zoom_out" mtime="1438545259" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+	<entry name="zoom_in" mtime="1438545320" type="string">
+		<stringvalue>disabled</stringvalue>
+	</entry>
+</gconf>
