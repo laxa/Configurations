@@ -8,3 +8,4 @@ cp gitconfig ~/.gitconfig
 cp keyboardshortcut.xml ~/.gconf/apps/gnome-terminal/keybindings/%gconf.xml
 cp terminal.xml ~/.gconf/apps/gnome-terminal/keybindings/%gconf.xml
 cp background.jpg ~/Documents
+cp user ~/.config/dconf/user
