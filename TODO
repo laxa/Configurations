@@ -1,0 +1,3 @@
+Debian background configuration is in : /usr/share/images/desktop-base
+Hack this on new installation to get background working properly with deploy
+Don't forget to update the `user` file which would point to an incorrect cached image
