@@ -3,7 +3,7 @@
 set -x
 
 cp emacs ~/.emacs
-cp bashrc ~/.bashrc
+cat bashrc >> ~/.bashrc
 cp gitconfig ~/.gitconfig
 cp keyboardshortcut.xml ~/.gconf/apps/gnome-terminal/keybindings/%gconf.xml
 cp terminal.xml ~/.gconf/apps/gnome-terminal/profiles/Default/%gconf.xml

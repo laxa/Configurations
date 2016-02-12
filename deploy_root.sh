@@ -9,6 +9,6 @@ fi
 set -x
 
 cp emacs ~/.emacs
-cp bashrc ~/.bashrc
+cat bashrc >> ~/.bashrc
 cp clean /bin/clean
 chmod +x /bin/clean
