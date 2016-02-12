@@ -10,5 +10,5 @@ set -x
 
 cp emacs ~/.emacs
 cat bashrc >> ~/.bashrc
-cp clean /bin/clean
-chmod +x /bin/clean
+cp clean /usr/local/bin/clean
+chmod +x /usr/local/bin/clean
