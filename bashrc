@@ -1,5 +1,6 @@
 alias ll='ls -lF --color'
 alias la='ls -A --color'
+alias ls='ls --color'
 alias grep='grep --color'
 export LANG="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
