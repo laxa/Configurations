@@ -2,6 +2,10 @@ alias ll='ls -lF --color'
 alias la='ls -A --color'
 alias ls='ls --color'
 alias grep='grep --color'
+alias egrep='egrep --color'
+alias pgrep='pgrep --color'
+alias fgrep='fgrep --color'
+
 export LANG="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
