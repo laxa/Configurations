@@ -14,3 +14,5 @@ export PS1="\[\033[38;5;46m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\
 
 # update path for binaries installed using pip --user
 test -d $HOME/.local/bin/ && export PATH=$HOME/.local/bin:$PATH
+# resolve symlink on cd symlink                                                                                                         
+set -o physical
