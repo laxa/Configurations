@@ -13,6 +13,7 @@
 (setq-default show-trailing-whitespace t)
 (fset 'yes-or-no-p 'y-or-n-p)
 (setq-default indent-tabs-mode nil)
+(setq-default electric-indent-mode nil)
 (setq-default tab-width 8)
 (setq c-default-style "bsd"
       c-basic-offset 4)
