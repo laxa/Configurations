@@ -3,8 +3,8 @@ alias la='ls -A --color'
 alias ls='ls --color'
 alias grep='grep --color'
 alias egrep='egrep --color'
-alias pgrep='pgrep --color'
 alias fgrep='fgrep --color'
+alias rgrep='fgrep --color'
 alias jsonify="python -m json.tool"                                                                                                     
 alias xmlify="xmllint --format -"
 
