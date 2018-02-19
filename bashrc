@@ -7,6 +7,7 @@ alias fgrep='fgrep --color'
 alias rgrep='fgrep --color'
 alias jsonify="python -m json.tool"                                                                                                     
 alias xmlify="xmllint --format -"
+alias xx='xclip -selection clipboard'
 
 export LANG="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
