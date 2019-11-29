@@ -20,3 +20,13 @@ export PS1="\[\033[38;5;46m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\
 test -d $HOME/.local/bin/ && export PATH=$HOME/.local/bin:$PATH
 # resolve symlink on cd symlink
 set -o physical
+
+ip()
+{
+    if [ "$#" -eq 0 ]
+    then
+        /bin/ip --brief --color addr
+    else
+        /bin/ip "$@"
+    fi
+}
