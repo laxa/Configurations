@@ -1,3 +1,11 @@
+# append to the history file, don't overwrite it
+shopt -s histappend
+PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=5000
+HISTFILESIZE=5000
+
 alias ll='ls -lF --color'
 alias la='ls -A --color'
 alias ls='ls --color'
@@ -18,6 +26,7 @@ export PS1="\[\033[38;5;46m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]:\[$(tput sgr0)\
 
 # update path for binaries installed using pip --user
 test -d $HOME/.local/bin/ && export PATH=$HOME/.local/bin:$PATH
+test -d $HOME/Documents/JohnTheRipper/run/ && export PATH=$PATH:$HOME/Documents/JohnTheRipper/run
 # resolve symlink on cd symlink
 set -o physical
 
@@ -30,3 +39,5 @@ ip()
         /bin/ip "$@"
     fi
 }
+
+source /usr/share/doc/fzf/examples/key-bindings.bash
