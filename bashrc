@@ -5,6 +5,7 @@ PROMPT_COMMAND="history -a;$PROMPT_COMMAND"
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=10000
 HISTFILESIZE=10000
+HISTTIMEFORMAT="%F %T "
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
